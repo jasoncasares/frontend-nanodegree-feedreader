@@ -35,7 +35,7 @@ $(function() {
 
                 it('has name defined', function() {
                     expect(allFeeds.name).toBeDefined();
-                    expect(allFeeds.url.length).not.toBe(0);
+                    expect(allFeeds.name.length).not.toBe(0);
                 });
             });
          });
